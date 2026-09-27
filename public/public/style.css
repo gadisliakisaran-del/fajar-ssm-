@@ -66,3 +66,39 @@ main {
   background: #171c27;
   border: 1px solid #303847;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 25px auto;
+  max-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #303847;
+  background: #111621;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero > a {
+  color: #4d8cff;
+  text-decoration: none;
+}
